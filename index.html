@@ -11,37 +11,36 @@
 </head>
 <body>
     <header>
-        <nav class="container">
-              <a href="#">About</a>
-              <a href="#">Store</a>
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-                <span class="material-icons">apps</span>
-                <button class="signIn"> Sign in</button>
+        <nav>
+              <ul class="navbar">
+                  <li><a href="https://about.google/a/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                  <li><a href="#">Store</a></li>
+                  <li class="gmail"><a href="#">Gmail</a></li>
+                  <li><a href="#">Images</a></li>
+                  <li><span class="material-icons">apps</span></li>
+                  <li><button class="signIn"> Sign in</button></li>
+              </ul>
         </nav>
 
     </header>
     
-    <main>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <div class="google">
     
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
     <form>
         <label for="search"></label>
-        <input type="search" name="search" id="search">
-        <label for="button1">Google Search</label>
-        <input type="button" name="button1" id="button1">
-        <label for="button2">I'm Feeling Lucky</label>
-        <input type="button" name="button2" id="button2">
+        <input class="searchbar" type="search" name="search" id="search">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
     </form>
-    </main>
+    
     <footer>
-        <ul>
+        <ul class="footer">
             <li>Advertising</li>
             <li>Business</li>
             <li>How Stuff Works</li>
-        </ul>
-        <div>Carbon neutral since 2007</div>
-        <ul>
+            <li class="carbon">Carbon neutral since 2007</li>
             <li>Privacy</li>
             <li>Terms</li>
             <li>Settings</li>

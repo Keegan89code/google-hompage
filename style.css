@@ -1,15 +1,27 @@
+*{
+    margin:auto;
+}
 body{
     background-color:white;
     font-family:arial, sans-serif;
     box-sizing:border-box;
+    height:100%;
+    
 }
-.container{
+header{
+    height:fit-content;
+}
+
+.navbar{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration-line: none;
 }
-img{
-    align-content: center;
+a {
+    text-decoration-line:none;
 }
 .signIn{
     background-color: #2b7de9;
@@ -18,4 +30,39 @@ img{
     color:white;
     padding:5px 22px;
     font-size:14px;
+}
+.gmail{
+    /* margin-left:auto; */
+}
+.google{
+    display:block;
+    text-align: center;
+    background-color: chocolate;
+    margin-top:200px;
+
+}
+form{
+    /* align-self: center; */
+}
+footer{
+    /* border:1px solid grey; */
+    
+}
+
+.footer{
+    background-color:rgb(224, 224, 224);
+    list-style: none;
+    position:absolute;
+    bottom:0;
+    display:flex;
+    padding:10px;
+    margin:0 auto;
+    width:100%;
+    color:#70757a;
+    font-size:14px;
+    justify-content: flex-start;
+}
+.carbon{
+    margin-left:auto;
+    margin-right: auto;
 }
