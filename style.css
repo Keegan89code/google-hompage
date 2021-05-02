@@ -1,5 +1,7 @@
 *{
     margin:auto;
+    padding:0;
+    box-sizing:border-box
 }
 body{
     background-color:white;
@@ -9,31 +11,32 @@ body{
     
 }
 header{
-    /* height:fit-content; */
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:5px;
 }
 
 .navbar{
-    /* display:flex; */
-    /* flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: center;  */
+    /* list-style: none;
+    text-decoration-line: none; */
+}
+.right{
+    margin-right:5px;
+    display: flex;
+}
+.links{
     list-style: none;
-    text-decoration-line: none;
+
+}
+.links li{
     display: inline-block;
+    padding: 0 20px;
 }
-a {
+
+a{
     text-decoration-line:none;
-}
-.about{
-    display:inline-block;
-}
-.store{
-    display:inline-block;
-    margin-left:5px;
-}
-.gmail{
-    display:inline-block;
-    margin-right:auto;
+    
 }
 .signIn{
     background-color: #2b7de9;
@@ -42,9 +45,16 @@ a {
     color:white;
     padding:5px 22px;
     font-size:14px;
+    
 }
-.gmail{
-    /* margin-left:auto; */
+.material-icons{
+    color:grey;
+    margin-right:15px;
+    align-self: center;
+}
+.material-icons:hover{
+    cursor: pointer;
+    
 }
 .google{
     display:block;
@@ -59,8 +69,7 @@ a {
     border:1px solid #dcdcdc;
 }
 .searchbar{
-    display:flex;
-    margin-top:10px;
+     margin-top:10px;
     height:45px;
     border:none;
     width:500px;
@@ -97,7 +106,7 @@ footer{
     padding:10px;
     /* margin:0 auto; */
     width:100%;
-    color:#d5d7da;
+    color:#222;
     font-size:14px;
     flex-wrap: wrap;
     justify-content: space-between;
